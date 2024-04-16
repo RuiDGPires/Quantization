@@ -1,3 +1,3 @@
 # Quantization
 
-(Reference)[https://arxiv.org/abs/1712.05877]
+[Reference](https://arxiv.org/abs/1712.05877)
