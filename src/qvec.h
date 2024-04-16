@@ -1,12 +1,14 @@
-#pragma once
-#include "defs.hpp"
+#ifndef __QVEC_H__
+#define __QVEC_H__
 
-struct qvec_t {
+#include "defs.h"
+
+typedef struct {
     int *vec;
     int zero_p;
     float m;
     size_t size;
-};
+} qvec_t;
 
 
 #define __MAKE_VEC_NAME(name) __##name##_v
@@ -19,3 +21,5 @@ struct qvec_t {
         .m = 0, \
         .size = _size, \
     };
+
+#endif

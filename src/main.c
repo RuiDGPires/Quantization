@@ -1,6 +1,6 @@
-#include "defs.hpp"
-#include "qvec.hpp"
-#include <cstdio>
+#include "defs.h"
+#include "qvec.h"
+#include <stdio.h>
 
 NEW_QVEC(weights, 5, {1,2,3,4,5})
 

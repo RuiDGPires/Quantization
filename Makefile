@@ -1,9 +1,9 @@
-C_FILES:=$(wildcard src/*.cpp)
-H_FILES:=$(wildcard src/*.cpp)
+C_FILES:=$(wildcard src/*.c)
+H_FILES:=$(wildcard src/*.h)
 BUILD_DIR:=build/
 TARGET:=quantization
-CC:=g++
-FLAGS:=
+CC:=gcc
+FLAGS:= --pedantic -Wall
 
 .PHONY: default
 default: $(BUILD_DIR)/$(TARGET)
